@@ -28,7 +28,12 @@
   margin-left:10px;
   font-family:'Courier New', Courier, monospace;
   font-size: 20px;
-  background-color: rgb(172, 172, 255);
+  background-color: rgb(127, 127, 255);
+}
+
+#input :placeholder-shown , #input ::-webkit-input-placeholder{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
 }
 
 #todo{
@@ -49,11 +54,13 @@
   padding:10px;
   font-family:'Courier New', Courier, monospace;
   font-size: 20px;
-  background-color: rgb(172, 172, 255);
+  background-color:rgb(127, 127, 255);
 }
 
 h2{
-  height: 50px;
+  height: 60px;
   width: 500px;
   border: 2px solid rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
 }
