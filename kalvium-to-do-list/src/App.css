@@ -1,0 +1,59 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family:Verdana,Tahoma, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+#input{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  text-align: center;
+}
+
+#value{
+  height: 80px;
+  width: 500px;
+  border: 3px solid black;
+}
+
+#input button{
+  height: 80px;
+  width: 200px;
+  margin-left:10px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+  background-color: rgb(172, 172, 255);
+}
+
+#todo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+  text-align: center;
+}
+
+#todo button{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 100px;
+  margin-left: 10px;
+  padding:10px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+  background-color: rgb(172, 172, 255);
+}
+
+h2{
+  height: 50px;
+  width: 500px;
+  border: 2px solid rgb(0, 0, 0);
+}
