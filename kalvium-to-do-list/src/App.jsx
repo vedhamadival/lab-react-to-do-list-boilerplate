@@ -19,9 +19,13 @@ export class App extends Component {
   }
 
   handlesubmit = () => {
-    this.state.data.push(this.state.value)
-    console.log(this.state.data)
-    this.setState({value:""})
+    //a simple if condition here for the edge case.
+    if(this.state.value!==null && this.state.value!==""){
+      this.state.data.push(this.state.value)
+      console.log(this.state.data)
+      this.setState({value:""})
+    }
+
   }
 
   handleDelete = (index) => {
@@ -30,10 +34,13 @@ export class App extends Component {
   }
 
   handleUpdate =(index)=>{
-    const data =  prompt()
-    console.log(data)
-    this.state.data[index] = data
-    this.setState({data:this.state.data})
+    //a simple if condition here for the edge case.
+    const data =  prompt("Enter the new text")
+    if(data!==null && data!==""){
+      this.state.data[index] = data
+      this.setState({data:this.state.data})
+    }
+
   }
 
   render() {
