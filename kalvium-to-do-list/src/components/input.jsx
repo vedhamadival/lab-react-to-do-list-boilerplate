@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Component } from 'react'
 
 export default class input extends Component {
@@ -8,6 +9,7 @@ export default class input extends Component {
         <div id="input">
       <input id="value"type="text" value={this.props.inputValue} 
       placeholder='Enter Text'
+       // eslint-disable-next-line react/prop-types
        onChange={(e)=>this.props.handleChange(e.target.value)}/>
       <button onClick={this.props.handlesubmit}>Create</button>
       </div>

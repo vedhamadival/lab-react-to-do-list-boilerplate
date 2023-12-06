@@ -1,3 +1,4 @@
+/* eslint-disable react/no-direct-mutation-state */
 import { Component } from 'react'
 import './App.css'
 import Input from './components/input'
